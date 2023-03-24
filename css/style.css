@@ -36,17 +36,39 @@ header {
     padding: 1.5em 0;
 }
 
+.side-by-side li {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    text-align: center;
+
+}
+
 nav {
     display: block;
     padding: 0.5em 0.75em;
     border-radius: 8px;
 }
 
-a: link {
+div {
+    display: inline;
+    
+}
+
+.link-1 {
     background-color: purple;
     color: white;
     border: 2px solid white;
     text-decoration: none;
+
+    
+}
+
+ .link-2 {
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;  
 }
 
 a: visited {
